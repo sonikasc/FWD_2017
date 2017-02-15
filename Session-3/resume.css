@@ -1,0 +1,49 @@
+html { 
+	background-color: #FFFFFF; 
+	font-family: "Ek Mukta", sans-serif; 
+	font-size: 18px; 
+	color: #404040;
+	margin: px;
+}
+
+
+a { font-family: 'Ek Mukta', sans-serif; font-size: 18px; color: #483D8B}
+
+a:hover { font-family: 'Ek Mukta', sans-serif; font-size: 18px; color: #545485; background-color: #FFFFFF}
+
+h1 { font-family: "Ek Mukta", sans-serif; font-size: 32px; color: #545485; line-height: .1in }
+h2 { font-family: "Ek Mukta", sans-serif; font-size: 24px; color: #545485; line-height: .1in }
+h3 { font-family: "Ek Mukta", sans-serif; font-size: 19px; color: #404040; line-height: .2in }
+h4 { font-family: "Ek Mukta", sans-serif; font-size: 16px; color: #404040; line-height: .2in }
+body { font-family: "Ek Mukta", sans-serif; font-size: 14px; color: #404040; }
+p {padding-right: 20px;}
+div.address {
+	line-height: .2in
+}
+
+
+/*for cell-phone:*/
+.position {
+	display: block;
+	margin: auto;
+	width: 90%;
+	max-width: 150px;
+	float: none;
+}
+
+/* For full screen or print: */
+
+@media only screen and (min-width: 480px) {
+	.position {
+		width: 30%; 
+		float: right; 
+		padding: 20px;
+	}
+}
+
+/* For full screen or print: */
+/*@media only screen and (min-width: 822px) {
+	html {
+		margin: 50px;
+	}
+}*/
