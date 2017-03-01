@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body> 
+
+<h1>Session 5 Homework</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">GO!</button>
+
+<script>
+function myFunction() {
+   document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+var order = {
+		'lineItems' : [
+			'description':"First Thing",
+			'price1': 60
+			'partNumber': 1234
+		},
+		{
+			'description':"Second Thing",
+			'price2': 86
+			'partNumber': 1235
+		}
+		{
+			'description':"Third Thing",
+			'price3': 40
+			'partNumber': 1236
+		}
+	];
+
+	//separate this part out (page113)
+		'customer'  : {
+		'name' : "Mister Man",
+		'address': "1234 Hello Lane"
+	}
+}
+
+order.customer.name
+var total= price1 + price2 + price3;
+var totaltaxed = FunctionTax (X, 1.10) //this should be where the total is multiplied by the tax
+function FunctionTax(p1, p2) {
+    return p1 * p2;              // The function returns the product of p1 and p2
+var endtotal = total + totaltaxed + 5;
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+
+</script>
+
+<h1>Payment</h1>
+
+<p>Please input your credit card number:</p>
+<input id="numb">
+<button type="button" onclick="myFunctionForm">Submit</button>
+<p id="demo"></p>
+
+<script>
+function myFunctionForm { //this is where I would like to have the credit card form lol
+    var x, text;
+
+    x = document.getElementById("numb").value;
+
+    if (isNaN(x) || x < 1 || x > 9999999999999999999) {
+        text = "Input not valid";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+
+</script>
+
+</body>
+</html>
+
